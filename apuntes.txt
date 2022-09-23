@@ -1,0 +1,33 @@
+NodeJS
+
+Metodos: Verbo que indica "lo que queremos hace"
+
+        -> GET: obtener información del servidor
+
+        -> POST: añadir información
+
+        -> PuT: reemplazar o modificar completamente alguna información
+
+        -> PATCH: actualizar parcialmente alguna información
+
+        -> DELETE: eliminar información
+        
+        -> OPTION: pide información de los metodos
+
+
+Cabeceras: Informacion de la peticion del como quiero lo quiero hacer
+    -> REQIEST: invia info
+        -> POST     -> AUTENTICATION    -> CONDICIONES
+        -> PuT      -> CACHE            -> CORS
+        -> PATCH    -> INDICATIONS      -> COOKES
+    
+
+Estados: un número que indica lo que ocurrio con la petision
+
+    -> 2XX: todo bien
+
+    -> 3XX: redirección
+
+    -> 4XX: error cliente
+
+    -> 5XX: error al procesar la información
