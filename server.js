@@ -8,6 +8,7 @@ const router = express.Router();
 
 app.use(bodyParser.json());
 app.use(router);
+app.use('/app', express.static('public'));
 
 router.get('/message', function(req, res){
     console.log(req.headers);
