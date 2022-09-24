@@ -1,0 +1,33 @@
+{
+  "name": "backendnode",
+  "version": "0.1.0",
+  "description": "Tutorial sobre backend con Nodejs, Chat tipo Telegram",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joexder/NodejsTutorial.git"
+  },
+  "keywords": [
+    "chat",
+    "tutoria",
+    "node",
+    "tutoria",
+    "chat",
+    "tutorial",
+    "telegram",
+    "tutorial"
+  ],
+  "author": "JOEL TERCEROS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joexder/NodejsTutorial/issues"
+  },
+  "homepage": "https://github.com/Joexder/NodejsTutorial#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
