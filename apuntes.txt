@@ -31,3 +31,10 @@ Estados: un número que indica lo que ocurrio con la petision
     -> 4XX: error cliente
 
     -> 5XX: error al procesar la información
+
+
+Cuerpo: contiene la información que pedimos o queremos, la informacion solicitada depende de las Cabeceras utilizadas
+
+Query: información extra, compartir información entre forntend y backend
+    Estructura: ?[final de la URL]nombre=valor  &[concatenar más valores]
+        Ej: algo.com?id=r4324&color=red
