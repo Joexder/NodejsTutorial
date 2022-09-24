@@ -1,5 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
+import {success, error} from "./network/responses.js"
+
 
 var app = express();
 const router = express.Router();
@@ -9,12 +11,15 @@ app.use(router);
 
 router.get('/message', function(req, res){
     console.log(req.headers);
-    res.send('Message List');
+    success(req,res,'Message List');
 });
 
 router.post('/message', function(req, res){
     console.log(req.query);
-    res.send('Message number: '+ req.query.value + ' Added');
+    if(req.query.error == "ok"){
+        error(req,res,"Something was wrong!!",404);
+    }
+    success(req,res,'Message Added',201);
 });
 
 app.listen(3000);
