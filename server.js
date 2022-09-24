@@ -8,12 +8,13 @@ app.use(bodyParser.json());
 app.use(router);
 
 router.get('/message', function(req, res){
+    console.log(req.headers);
     res.send('Message List');
 });
 
 router.post('/message', function(req, res){
     console.log(req.query);
-    res.send('Message Add');
+    res.send('Message number: '+ req.query.value + ' Added');
 });
 
 app.listen(3000);
