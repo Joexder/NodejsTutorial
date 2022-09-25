@@ -38,3 +38,6 @@ Cuerpo: contiene la información que pedimos o queremos, la informacion solicita
 Query: información extra, compartir información entre forntend y backend
     Estructura: ?[final de la URL]nombre=valor  &[concatenar más valores]
         Ej: algo.com?id=r4324&color=red
+
+
+MDB: node - jWSLdKA2g5bNznGq
